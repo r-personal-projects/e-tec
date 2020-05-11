@@ -1,0 +1,1262 @@
+The target system is: Generic -  - 
+The host system is: Darwin - 18.6.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc 
+Build flags: -mlongcalls
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is GNU, found in "/Users/rubeen/dev/esp/projects/led-client/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdC/CMakeCCompilerId.o"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++ 
+Build flags: -mlongcalls
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is GNU, found in "/Users/rubeen/dev/esp/projects/led-client/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+xtensa-esp32-elf-gcc (crosstool-NG crosstool-ng-1.22.0-80-g6c4433a) 5.2.0
+Copyright (C) 2015 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/rubeen/dev/esp/projects/led-client/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ab8bc/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ab8bc.dir/build.make CMakeFiles/cmTC_ab8bc.dir/build
+Building C object CMakeFiles/cmTC_ab8bc.dir/testCCompiler.c.obj
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc   -mlongcalls    -o CMakeFiles/cmTC_ab8bc.dir/testCCompiler.c.obj   -c /Users/rubeen/dev/esp/projects/led-client/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_ab8bc
+"/Users/rubeen/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.6183.77/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_ab8bc.dir/link.txt --verbose=1
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc -mlongcalls   -nostdlib  CMakeFiles/cmTC_ab8bc.dir/testCCompiler.c.obj  -o cmTC_ab8bc 
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000400054
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/rubeen/dev/esp/projects/led-client/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6da2f/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_6da2f.dir/build.make CMakeFiles/cmTC_6da2f.dir/build
+Building C object CMakeFiles/cmTC_6da2f.dir/CMakeCCompilerABI.c.obj
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc   -mlongcalls    -o CMakeFiles/cmTC_6da2f.dir/CMakeCCompilerABI.c.obj   -c "/Users/rubeen/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.6183.77/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CMakeCCompilerABI.c"
+Linking C executable cmTC_6da2f
+"/Users/rubeen/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.6183.77/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_6da2f.dir/link.txt --verbose=1
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc -mlongcalls   -nostdlib -v CMakeFiles/cmTC_6da2f.dir/CMakeCCompilerABI.c.obj  -o cmTC_6da2f 
+Using built-in specs.
+COLLECT_GCC=/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc
+COLLECT_LTO_WRAPPER=/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/lto-wrapper
+Target: xtensa-esp32-elf
+Configured with: /Volumes/build/idf/crosstool-NG/.build/src/gcc-5.2.0/configure --build=x86_64-build_apple-darwin16.3.0 --host=x86_64-build_apple-darwin16.3.0 --target=xtensa-esp32-elf --prefix=/Volumes/build/idf/crosstool-NG/builds/xtensa-esp32-elf --with-local-prefix=/Volumes/build/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/sysroot --with-sysroot=/Volumes/build/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/sysroot --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG crosstool-ng-1.22.0-80-g6c4433a' --disable-__cxa_atexit --enable-cxx-flags='-fno-rtti -ffunction-sections' --with-gmp=/Volumes/build/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-mpfr=/Volumes/build/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-mpc=/Volumes/build/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-isl=/Volumes/build/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-cloog=/Volumes/build/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-libelf=/Volumes/build/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --enable-lto --enable-target-optspace --without-long-double-128 --disable-libgomp --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-nls --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio
+Thread model: posix
+gcc version 5.2.0 (crosstool-NG crosstool-ng-1.22.0-80-g6c4433a) 
+COMPILER_PATH=/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/:/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../libexec/gcc/:/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/
+LIBRARY_PATH=/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/:/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/:/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib/:/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/lib/:/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-mlongcalls' '-nostdlib' '-v' '-o' 'cmTC_6da2f'
+ /Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/collect2 -plugin /Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/liblto_plugin.so -plugin-opt=/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/pv/34t6hfln4kl4rknslt061hy00000gn/T//ccIbOIVs.res --sysroot=/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot -o cmTC_6da2f -L/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0 -L/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc -L/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib -L/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/lib -L/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/usr/lib CMakeFiles/cmTC_6da2f.dir/CMakeCCompilerABI.c.obj
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000400074
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(xtensa-esp32-elf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/rubeen/dev/esp/projects/led-client/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_6da2f/fast"]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_6da2f.dir/build.make CMakeFiles/cmTC_6da2f.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_6da2f.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc   -mlongcalls    -o CMakeFiles/cmTC_6da2f.dir/CMakeCCompilerABI.c.obj   -c "/Users/rubeen/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.6183.77/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CMakeCCompilerABI.c"]
+  ignore line: [Linking C executable cmTC_6da2f]
+  ignore line: ["/Users/rubeen/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.6183.77/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_6da2f.dir/link.txt --verbose=1]
+  ignore line: [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc -mlongcalls   -nostdlib -v CMakeFiles/cmTC_6da2f.dir/CMakeCCompilerABI.c.obj  -o cmTC_6da2f ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/lto-wrapper]
+  ignore line: [Target: xtensa-esp32-elf]
+  ignore line: [Configured with: /Volumes/build/idf/crosstool-NG/.build/src/gcc-5.2.0/configure --build=x86_64-build_apple-darwin16.3.0 --host=x86_64-build_apple-darwin16.3.0 --target=xtensa-esp32-elf --prefix=/Volumes/build/idf/crosstool-NG/builds/xtensa-esp32-elf --with-local-prefix=/Volumes/build/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/sysroot --with-sysroot=/Volumes/build/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/sysroot --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG crosstool-ng-1.22.0-80-g6c4433a' --disable-__cxa_atexit --enable-cxx-flags='-fno-rtti -ffunction-sections' --with-gmp=/Volumes/build/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-mpfr=/Volumes/build/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-mpc=/Volumes/build/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-isl=/Volumes/build/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-cloog=/Volumes/build/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-libelf=/Volumes/build/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --enable-lto --enable-target-optspace --without-long-double-128 --disable-libgomp --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-nls --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.2.0 (crosstool-NG crosstool-ng-1.22.0-80-g6c4433a) ]
+  ignore line: [COMPILER_PATH=/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/:/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../libexec/gcc/:/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/]
+  ignore line: [LIBRARY_PATH=/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/:/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/:/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib/:/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/lib/:/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-nostdlib' '-v' '-o' 'cmTC_6da2f']
+  link line: [ /Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/collect2 -plugin /Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/liblto_plugin.so -plugin-opt=/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/pv/34t6hfln4kl4rknslt061hy00000gn/T//ccIbOIVs.res --sysroot=/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot -o cmTC_6da2f -L/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0 -L/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc -L/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib -L/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/lib -L/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/usr/lib CMakeFiles/cmTC_6da2f.dir/CMakeCCompilerABI.c.obj]
+    arg [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/var/folders/pv/34t6hfln4kl4rknslt061hy00000gn/T//ccIbOIVs.res] ==> ignore
+    arg [--sysroot=/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_6da2f] ==> ignore
+    arg [-L/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0] ==> dir [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0]
+    arg [-L/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc] ==> dir [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc]
+    arg [-L/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib] ==> dir [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib]
+    arg [-L/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/lib] ==> dir [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/lib]
+    arg [-L/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/usr/lib] ==> dir [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/usr/lib]
+    arg [CMakeFiles/cmTC_6da2f.dir/CMakeCCompilerABI.c.obj] ==> ignore
+  collapse library dir [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0] ==> [/Users/rubeen/dev/esp/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/5.2.0]
+  collapse library dir [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc] ==> [/Users/rubeen/dev/esp/xtensa-esp32-elf/lib/gcc]
+  collapse library dir [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib] ==> [/Users/rubeen/dev/esp/xtensa-esp32-elf/xtensa-esp32-elf/lib]
+  collapse library dir [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/lib] ==> [/Users/rubeen/dev/esp/xtensa-esp32-elf/xtensa-esp32-elf/sysroot/lib]
+  collapse library dir [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/usr/lib] ==> [/Users/rubeen/dev/esp/xtensa-esp32-elf/xtensa-esp32-elf/sysroot/usr/lib]
+  implicit libs: []
+  implicit dirs: [/Users/rubeen/dev/esp/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/5.2.0;/Users/rubeen/dev/esp/xtensa-esp32-elf/lib/gcc;/Users/rubeen/dev/esp/xtensa-esp32-elf/xtensa-esp32-elf/lib;/Users/rubeen/dev/esp/xtensa-esp32-elf/xtensa-esp32-elf/sysroot/lib;/Users/rubeen/dev/esp/xtensa-esp32-elf/xtensa-esp32-elf/sysroot/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /Users/rubeen/dev/esp/projects/led-client/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_daeb0/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_daeb0.dir/build.make CMakeFiles/cmTC_daeb0.dir/build
+Building C object CMakeFiles/cmTC_daeb0.dir/feature_tests.c.obj
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc   -mlongcalls    -std=c11 -o CMakeFiles/cmTC_daeb0.dir/feature_tests.c.obj   -c /Users/rubeen/dev/esp/projects/led-client/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_daeb0
+"/Users/rubeen/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.6183.77/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_daeb0.dir/link.txt --verbose=1
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc -mlongcalls   -nostdlib  CMakeFiles/cmTC_daeb0.dir/feature_tests.c.obj  -o cmTC_daeb0 
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000400074
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /Users/rubeen/dev/esp/projects/led-client/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b18bc/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_b18bc.dir/build.make CMakeFiles/cmTC_b18bc.dir/build
+Building C object CMakeFiles/cmTC_b18bc.dir/feature_tests.c.obj
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc   -mlongcalls    -std=c99 -o CMakeFiles/cmTC_b18bc.dir/feature_tests.c.obj   -c /Users/rubeen/dev/esp/projects/led-client/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_b18bc
+"/Users/rubeen/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.6183.77/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_b18bc.dir/link.txt --verbose=1
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc -mlongcalls   -nostdlib  CMakeFiles/cmTC_b18bc.dir/feature_tests.c.obj  -o cmTC_b18bc 
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000400074
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /Users/rubeen/dev/esp/projects/led-client/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ee779/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ee779.dir/build.make CMakeFiles/cmTC_ee779.dir/build
+Building C object CMakeFiles/cmTC_ee779.dir/feature_tests.c.obj
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc   -mlongcalls    -std=c90 -o CMakeFiles/cmTC_ee779.dir/feature_tests.c.obj   -c /Users/rubeen/dev/esp/projects/led-client/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_ee779
+"/Users/rubeen/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.6183.77/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_ee779.dir/link.txt --verbose=1
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc -mlongcalls   -nostdlib  CMakeFiles/cmTC_ee779.dir/feature_tests.c.obj  -o cmTC_ee779 
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000400074
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Users/rubeen/dev/esp/projects/led-client/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c46fe/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c46fe.dir/build.make CMakeFiles/cmTC_c46fe.dir/build
+Building CXX object CMakeFiles/cmTC_c46fe.dir/testCXXCompiler.cxx.obj
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++    -mlongcalls    -o CMakeFiles/cmTC_c46fe.dir/testCXXCompiler.cxx.obj -c /Users/rubeen/dev/esp/projects/led-client/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_c46fe
+"/Users/rubeen/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.6183.77/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_c46fe.dir/link.txt --verbose=1
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++  -mlongcalls   -nostdlib  CMakeFiles/cmTC_c46fe.dir/testCXXCompiler.cxx.obj  -o cmTC_c46fe 
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000400054
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/rubeen/dev/esp/projects/led-client/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7db68/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_7db68.dir/build.make CMakeFiles/cmTC_7db68.dir/build
+Building CXX object CMakeFiles/cmTC_7db68.dir/CMakeCXXCompilerABI.cpp.obj
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++    -mlongcalls    -o CMakeFiles/cmTC_7db68.dir/CMakeCXXCompilerABI.cpp.obj -c "/Users/rubeen/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.6183.77/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp"
+Linking CXX executable cmTC_7db68
+"/Users/rubeen/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.6183.77/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_7db68.dir/link.txt --verbose=1
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++  -mlongcalls   -nostdlib -v CMakeFiles/cmTC_7db68.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_7db68 
+Using built-in specs.
+COLLECT_GCC=/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++
+COLLECT_LTO_WRAPPER=/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/lto-wrapper
+Target: xtensa-esp32-elf
+Configured with: /Volumes/build/idf/crosstool-NG/.build/src/gcc-5.2.0/configure --build=x86_64-build_apple-darwin16.3.0 --host=x86_64-build_apple-darwin16.3.0 --target=xtensa-esp32-elf --prefix=/Volumes/build/idf/crosstool-NG/builds/xtensa-esp32-elf --with-local-prefix=/Volumes/build/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/sysroot --with-sysroot=/Volumes/build/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/sysroot --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG crosstool-ng-1.22.0-80-g6c4433a' --disable-__cxa_atexit --enable-cxx-flags='-fno-rtti -ffunction-sections' --with-gmp=/Volumes/build/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-mpfr=/Volumes/build/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-mpc=/Volumes/build/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-isl=/Volumes/build/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-cloog=/Volumes/build/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-libelf=/Volumes/build/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --enable-lto --enable-target-optspace --without-long-double-128 --disable-libgomp --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-nls --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio
+Thread model: posix
+gcc version 5.2.0 (crosstool-NG crosstool-ng-1.22.0-80-g6c4433a) 
+COMPILER_PATH=/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/:/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../libexec/gcc/:/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/
+LIBRARY_PATH=/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/:/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/:/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib/:/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/lib/:/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-mlongcalls' '-nostdlib' '-v' '-o' 'cmTC_7db68'
+ /Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/collect2 -plugin /Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/liblto_plugin.so -plugin-opt=/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/pv/34t6hfln4kl4rknslt061hy00000gn/T//ccmwFUXe.res --sysroot=/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot -o cmTC_7db68 -L/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0 -L/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc -L/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib -L/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/lib -L/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/usr/lib CMakeFiles/cmTC_7db68.dir/CMakeCXXCompilerABI.cpp.obj
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000400074
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(xtensa-esp32-elf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/rubeen/dev/esp/projects/led-client/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_7db68/fast"]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_7db68.dir/build.make CMakeFiles/cmTC_7db68.dir/build]
+  ignore line: [Building CXX object CMakeFiles/cmTC_7db68.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++    -mlongcalls    -o CMakeFiles/cmTC_7db68.dir/CMakeCXXCompilerABI.cpp.obj -c "/Users/rubeen/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.6183.77/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp"]
+  ignore line: [Linking CXX executable cmTC_7db68]
+  ignore line: ["/Users/rubeen/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.6183.77/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_7db68.dir/link.txt --verbose=1]
+  ignore line: [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++  -mlongcalls   -nostdlib -v CMakeFiles/cmTC_7db68.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_7db68 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/lto-wrapper]
+  ignore line: [Target: xtensa-esp32-elf]
+  ignore line: [Configured with: /Volumes/build/idf/crosstool-NG/.build/src/gcc-5.2.0/configure --build=x86_64-build_apple-darwin16.3.0 --host=x86_64-build_apple-darwin16.3.0 --target=xtensa-esp32-elf --prefix=/Volumes/build/idf/crosstool-NG/builds/xtensa-esp32-elf --with-local-prefix=/Volumes/build/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/sysroot --with-sysroot=/Volumes/build/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/sysroot --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG crosstool-ng-1.22.0-80-g6c4433a' --disable-__cxa_atexit --enable-cxx-flags='-fno-rtti -ffunction-sections' --with-gmp=/Volumes/build/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-mpfr=/Volumes/build/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-mpc=/Volumes/build/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-isl=/Volumes/build/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-cloog=/Volumes/build/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-libelf=/Volumes/build/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --enable-lto --enable-target-optspace --without-long-double-128 --disable-libgomp --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-nls --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.2.0 (crosstool-NG crosstool-ng-1.22.0-80-g6c4433a) ]
+  ignore line: [COMPILER_PATH=/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/:/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../libexec/gcc/:/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/]
+  ignore line: [LIBRARY_PATH=/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/:/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/:/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib/:/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/lib/:/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-nostdlib' '-v' '-o' 'cmTC_7db68']
+  link line: [ /Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/collect2 -plugin /Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/liblto_plugin.so -plugin-opt=/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/pv/34t6hfln4kl4rknslt061hy00000gn/T//ccmwFUXe.res --sysroot=/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot -o cmTC_7db68 -L/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0 -L/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc -L/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib -L/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/lib -L/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/usr/lib CMakeFiles/cmTC_7db68.dir/CMakeCXXCompilerABI.cpp.obj]
+    arg [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/var/folders/pv/34t6hfln4kl4rknslt061hy00000gn/T//ccmwFUXe.res] ==> ignore
+    arg [--sysroot=/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_7db68] ==> ignore
+    arg [-L/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0] ==> dir [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0]
+    arg [-L/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc] ==> dir [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc]
+    arg [-L/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib] ==> dir [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib]
+    arg [-L/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/lib] ==> dir [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/lib]
+    arg [-L/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/usr/lib] ==> dir [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/usr/lib]
+    arg [CMakeFiles/cmTC_7db68.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+  collapse library dir [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0] ==> [/Users/rubeen/dev/esp/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/5.2.0]
+  collapse library dir [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc] ==> [/Users/rubeen/dev/esp/xtensa-esp32-elf/lib/gcc]
+  collapse library dir [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib] ==> [/Users/rubeen/dev/esp/xtensa-esp32-elf/xtensa-esp32-elf/lib]
+  collapse library dir [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/lib] ==> [/Users/rubeen/dev/esp/xtensa-esp32-elf/xtensa-esp32-elf/sysroot/lib]
+  collapse library dir [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/usr/lib] ==> [/Users/rubeen/dev/esp/xtensa-esp32-elf/xtensa-esp32-elf/sysroot/usr/lib]
+  implicit libs: []
+  implicit dirs: [/Users/rubeen/dev/esp/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/5.2.0;/Users/rubeen/dev/esp/xtensa-esp32-elf/lib/gcc;/Users/rubeen/dev/esp/xtensa-esp32-elf/xtensa-esp32-elf/lib;/Users/rubeen/dev/esp/xtensa-esp32-elf/xtensa-esp32-elf/sysroot/lib;/Users/rubeen/dev/esp/xtensa-esp32-elf/xtensa-esp32-elf/sysroot/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: /Users/rubeen/dev/esp/projects/led-client/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_12a66/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_12a66.dir/build.make CMakeFiles/cmTC_12a66.dir/build
+Building CXX object CMakeFiles/cmTC_12a66.dir/feature_tests.cxx.obj
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++    -mlongcalls    -std=c++1z -o CMakeFiles/cmTC_12a66.dir/feature_tests.cxx.obj -c /Users/rubeen/dev/esp/projects/led-client/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_12a66
+"/Users/rubeen/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.6183.77/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_12a66.dir/link.txt --verbose=1
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++  -mlongcalls   -nostdlib  CMakeFiles/cmTC_12a66.dir/feature_tests.cxx.obj  -o cmTC_12a66 
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000400074
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /Users/rubeen/dev/esp/projects/led-client/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1e5dd/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_1e5dd.dir/build.make CMakeFiles/cmTC_1e5dd.dir/build
+Building CXX object CMakeFiles/cmTC_1e5dd.dir/feature_tests.cxx.obj
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++    -mlongcalls    -std=c++14 -o CMakeFiles/cmTC_1e5dd.dir/feature_tests.cxx.obj -c /Users/rubeen/dev/esp/projects/led-client/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_1e5dd
+"/Users/rubeen/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.6183.77/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_1e5dd.dir/link.txt --verbose=1
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++  -mlongcalls   -nostdlib  CMakeFiles/cmTC_1e5dd.dir/feature_tests.cxx.obj  -o cmTC_1e5dd 
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000400074
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /Users/rubeen/dev/esp/projects/led-client/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_322a6/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_322a6.dir/build.make CMakeFiles/cmTC_322a6.dir/build
+Building CXX object CMakeFiles/cmTC_322a6.dir/feature_tests.cxx.obj
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++    -mlongcalls    -std=c++11 -o CMakeFiles/cmTC_322a6.dir/feature_tests.cxx.obj -c /Users/rubeen/dev/esp/projects/led-client/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_322a6
+"/Users/rubeen/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.6183.77/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_322a6.dir/link.txt --verbose=1
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++  -mlongcalls   -nostdlib  CMakeFiles/cmTC_322a6.dir/feature_tests.cxx.obj  -o cmTC_322a6 
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000400074
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /Users/rubeen/dev/esp/projects/led-client/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e6842/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e6842.dir/build.make CMakeFiles/cmTC_e6842.dir/build
+Building CXX object CMakeFiles/cmTC_e6842.dir/feature_tests.cxx.obj
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++    -mlongcalls    -std=c++98 -o CMakeFiles/cmTC_e6842.dir/feature_tests.cxx.obj -c /Users/rubeen/dev/esp/projects/led-client/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_e6842
+"/Users/rubeen/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.6183.77/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_e6842.dir/link.txt --verbose=1
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++  -mlongcalls   -nostdlib  CMakeFiles/cmTC_e6842.dir/feature_tests.cxx.obj  -o cmTC_e6842 
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000400074
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+The target system is: Generic -  - 
+The host system is: Darwin - 18.6.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc 
+Build flags: -mlongcalls
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is GNU, found in "/Users/rubeen/dev/esp/projects/led-client/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdC/CMakeCCompilerId.o"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++ 
+Build flags: -mlongcalls
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is GNU, found in "/Users/rubeen/dev/esp/projects/led-client/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+xtensa-esp32-elf-gcc (crosstool-NG crosstool-ng-1.22.0-80-g6c4433a) 5.2.0
+Copyright (C) 2015 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/rubeen/dev/esp/projects/led-client/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0b49a/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_0b49a.dir/build.make CMakeFiles/cmTC_0b49a.dir/build
+Building C object CMakeFiles/cmTC_0b49a.dir/testCCompiler.c.obj
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc   -mlongcalls    -o CMakeFiles/cmTC_0b49a.dir/testCCompiler.c.obj   -c /Users/rubeen/dev/esp/projects/led-client/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_0b49a
+"/Users/rubeen/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_0b49a.dir/link.txt --verbose=1
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc -mlongcalls   -nostdlib  CMakeFiles/cmTC_0b49a.dir/testCCompiler.c.obj  -o cmTC_0b49a 
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000400054
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/rubeen/dev/esp/projects/led-client/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fecca/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_fecca.dir/build.make CMakeFiles/cmTC_fecca.dir/build
+Building C object CMakeFiles/cmTC_fecca.dir/CMakeCCompilerABI.c.obj
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc   -mlongcalls    -v -o CMakeFiles/cmTC_fecca.dir/CMakeCCompilerABI.c.obj   -c "/Users/rubeen/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CMakeCCompilerABI.c"
+Using built-in specs.
+COLLECT_GCC=/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc
+Target: xtensa-esp32-elf
+Configured with: /Volumes/build/idf/crosstool-NG/.build/src/gcc-5.2.0/configure --build=x86_64-build_apple-darwin16.3.0 --host=x86_64-build_apple-darwin16.3.0 --target=xtensa-esp32-elf --prefix=/Volumes/build/idf/crosstool-NG/builds/xtensa-esp32-elf --with-local-prefix=/Volumes/build/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/sysroot --with-sysroot=/Volumes/build/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/sysroot --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG crosstool-ng-1.22.0-80-g6c4433a' --disable-__cxa_atexit --enable-cxx-flags='-fno-rtti -ffunction-sections' --with-gmp=/Volumes/build/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-mpfr=/Volumes/build/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-mpc=/Volumes/build/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-isl=/Volumes/build/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-cloog=/Volumes/build/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-libelf=/Volumes/build/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --enable-lto --enable-target-optspace --without-long-double-128 --disable-libgomp --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-nls --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio
+Thread model: posix
+gcc version 5.2.0 (crosstool-NG crosstool-ng-1.22.0-80-g6c4433a) 
+COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'CMakeFiles/cmTC_fecca.dir/CMakeCCompilerABI.c.obj' '-c'
+ /Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/cc1 -quiet -v -iprefix /Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/ -isysroot /Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot /Users/rubeen/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mlongcalls -auxbase-strip CMakeFiles/cmTC_fecca.dir/CMakeCCompilerABI.c.obj -version -o /var/folders/pv/34t6hfln4kl4rknslt061hy00000gn/T//ccBgXj49.s
+GNU C11 (crosstool-NG crosstool-ng-1.22.0-80-g6c4433a) version 5.2.0 (xtensa-esp32-elf)
+	compiled by GNU C version 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.42.1), GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/../../lib/gcc/xtensa-esp32-elf/5.2.0/include"
+ignoring nonexistent directory "/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/Volumes/build/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/sysroot/include"
+ignoring duplicate directory "/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/../../lib/gcc/xtensa-esp32-elf/5.2.0/include-fixed"
+ignoring duplicate directory "/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/../../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/include
+ /Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/include-fixed
+ /Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/include
+ /Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/usr/include
+End of search list.
+GNU C11 (crosstool-NG crosstool-ng-1.22.0-80-g6c4433a) version 5.2.0 (xtensa-esp32-elf)
+	compiled by GNU C version 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.42.1), GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 1835ba18f6c9b801c7b2d9636a84df7a
+COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'CMakeFiles/cmTC_fecca.dir/CMakeCCompilerABI.c.obj' '-c'
+ /Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/as --traditional-format --longcalls -o CMakeFiles/cmTC_fecca.dir/CMakeCCompilerABI.c.obj /var/folders/pv/34t6hfln4kl4rknslt061hy00000gn/T//ccBgXj49.s
+COMPILER_PATH=/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/:/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../libexec/gcc/:/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/
+LIBRARY_PATH=/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/:/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/:/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib/:/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/lib/:/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'CMakeFiles/cmTC_fecca.dir/CMakeCCompilerABI.c.obj' '-c'
+Linking C executable cmTC_fecca
+"/Users/rubeen/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_fecca.dir/link.txt --verbose=1
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc -mlongcalls   -nostdlib -v CMakeFiles/cmTC_fecca.dir/CMakeCCompilerABI.c.obj  -o cmTC_fecca 
+Using built-in specs.
+COLLECT_GCC=/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc
+COLLECT_LTO_WRAPPER=/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/lto-wrapper
+Target: xtensa-esp32-elf
+Configured with: /Volumes/build/idf/crosstool-NG/.build/src/gcc-5.2.0/configure --build=x86_64-build_apple-darwin16.3.0 --host=x86_64-build_apple-darwin16.3.0 --target=xtensa-esp32-elf --prefix=/Volumes/build/idf/crosstool-NG/builds/xtensa-esp32-elf --with-local-prefix=/Volumes/build/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/sysroot --with-sysroot=/Volumes/build/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/sysroot --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG crosstool-ng-1.22.0-80-g6c4433a' --disable-__cxa_atexit --enable-cxx-flags='-fno-rtti -ffunction-sections' --with-gmp=/Volumes/build/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-mpfr=/Volumes/build/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-mpc=/Volumes/build/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-isl=/Volumes/build/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-cloog=/Volumes/build/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-libelf=/Volumes/build/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --enable-lto --enable-target-optspace --without-long-double-128 --disable-libgomp --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-nls --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio
+Thread model: posix
+gcc version 5.2.0 (crosstool-NG crosstool-ng-1.22.0-80-g6c4433a) 
+COMPILER_PATH=/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/:/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../libexec/gcc/:/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/
+LIBRARY_PATH=/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/:/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/:/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib/:/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/lib/:/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-mlongcalls' '-nostdlib' '-v' '-o' 'cmTC_fecca'
+ /Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/collect2 -plugin /Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/liblto_plugin.so -plugin-opt=/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/pv/34t6hfln4kl4rknslt061hy00000gn/T//ccHZlvP2.res --sysroot=/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot -o cmTC_fecca -L/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0 -L/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc -L/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib -L/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/lib -L/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/usr/lib CMakeFiles/cmTC_fecca.dir/CMakeCCompilerABI.c.obj
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000400074
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/include]
+    add: [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/include-fixed]
+    add: [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/include]
+    add: [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/include] ==> [/Users/rubeen/dev/esp/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/5.2.0/include]
+  collapse include dir [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/include-fixed] ==> [/Users/rubeen/dev/esp/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/5.2.0/include-fixed]
+  collapse include dir [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/include] ==> [/Users/rubeen/dev/esp/xtensa-esp32-elf/xtensa-esp32-elf/include]
+  collapse include dir [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/usr/include] ==> [/Users/rubeen/dev/esp/xtensa-esp32-elf/xtensa-esp32-elf/sysroot/usr/include]
+  implicit include dirs: [/Users/rubeen/dev/esp/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/5.2.0/include;/Users/rubeen/dev/esp/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/5.2.0/include-fixed;/Users/rubeen/dev/esp/xtensa-esp32-elf/xtensa-esp32-elf/include;/Users/rubeen/dev/esp/xtensa-esp32-elf/xtensa-esp32-elf/sysroot/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(xtensa-esp32-elf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/rubeen/dev/esp/projects/led-client/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_fecca/fast ]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_fecca.dir/build.make CMakeFiles/cmTC_fecca.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_fecca.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc   -mlongcalls    -v -o CMakeFiles/cmTC_fecca.dir/CMakeCCompilerABI.c.obj   -c "/Users/rubeen/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CMakeCCompilerABI.c"]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc]
+  ignore line: [Target: xtensa-esp32-elf]
+  ignore line: [Configured with: /Volumes/build/idf/crosstool-NG/.build/src/gcc-5.2.0/configure --build=x86_64-build_apple-darwin16.3.0 --host=x86_64-build_apple-darwin16.3.0 --target=xtensa-esp32-elf --prefix=/Volumes/build/idf/crosstool-NG/builds/xtensa-esp32-elf --with-local-prefix=/Volumes/build/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/sysroot --with-sysroot=/Volumes/build/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/sysroot --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG crosstool-ng-1.22.0-80-g6c4433a' --disable-__cxa_atexit --enable-cxx-flags='-fno-rtti -ffunction-sections' --with-gmp=/Volumes/build/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-mpfr=/Volumes/build/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-mpc=/Volumes/build/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-isl=/Volumes/build/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-cloog=/Volumes/build/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-libelf=/Volumes/build/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --enable-lto --enable-target-optspace --without-long-double-128 --disable-libgomp --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-nls --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.2.0 (crosstool-NG crosstool-ng-1.22.0-80-g6c4433a) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'CMakeFiles/cmTC_fecca.dir/CMakeCCompilerABI.c.obj' '-c']
+  ignore line: [ /Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/cc1 -quiet -v -iprefix /Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/ -isysroot /Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot /Users/rubeen/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mlongcalls -auxbase-strip CMakeFiles/cmTC_fecca.dir/CMakeCCompilerABI.c.obj -version -o /var/folders/pv/34t6hfln4kl4rknslt061hy00000gn/T//ccBgXj49.s]
+  ignore line: [GNU C11 (crosstool-NG crosstool-ng-1.22.0-80-g6c4433a) version 5.2.0 (xtensa-esp32-elf)]
+  ignore line: [	compiled by GNU C version 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.42.1), GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/../../lib/gcc/xtensa-esp32-elf/5.2.0/include"]
+  ignore line: [ignoring nonexistent directory "/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/Volumes/build/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/sysroot/include"]
+  ignore line: [ignoring duplicate directory "/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/../../lib/gcc/xtensa-esp32-elf/5.2.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/../../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/include]
+  ignore line: [ /Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/include-fixed]
+  ignore line: [ /Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/include]
+  ignore line: [ /Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C11 (crosstool-NG crosstool-ng-1.22.0-80-g6c4433a) version 5.2.0 (xtensa-esp32-elf)]
+  ignore line: [	compiled by GNU C version 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.42.1), GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 1835ba18f6c9b801c7b2d9636a84df7a]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'CMakeFiles/cmTC_fecca.dir/CMakeCCompilerABI.c.obj' '-c']
+  ignore line: [ /Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/as --traditional-format --longcalls -o CMakeFiles/cmTC_fecca.dir/CMakeCCompilerABI.c.obj /var/folders/pv/34t6hfln4kl4rknslt061hy00000gn/T//ccBgXj49.s]
+  ignore line: [COMPILER_PATH=/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/:/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../libexec/gcc/:/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/]
+  ignore line: [LIBRARY_PATH=/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/:/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/:/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib/:/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/lib/:/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'CMakeFiles/cmTC_fecca.dir/CMakeCCompilerABI.c.obj' '-c']
+  ignore line: [Linking C executable cmTC_fecca]
+  ignore line: ["/Users/rubeen/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_fecca.dir/link.txt --verbose=1]
+  ignore line: [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc -mlongcalls   -nostdlib -v CMakeFiles/cmTC_fecca.dir/CMakeCCompilerABI.c.obj  -o cmTC_fecca ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/lto-wrapper]
+  ignore line: [Target: xtensa-esp32-elf]
+  ignore line: [Configured with: /Volumes/build/idf/crosstool-NG/.build/src/gcc-5.2.0/configure --build=x86_64-build_apple-darwin16.3.0 --host=x86_64-build_apple-darwin16.3.0 --target=xtensa-esp32-elf --prefix=/Volumes/build/idf/crosstool-NG/builds/xtensa-esp32-elf --with-local-prefix=/Volumes/build/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/sysroot --with-sysroot=/Volumes/build/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/sysroot --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG crosstool-ng-1.22.0-80-g6c4433a' --disable-__cxa_atexit --enable-cxx-flags='-fno-rtti -ffunction-sections' --with-gmp=/Volumes/build/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-mpfr=/Volumes/build/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-mpc=/Volumes/build/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-isl=/Volumes/build/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-cloog=/Volumes/build/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-libelf=/Volumes/build/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --enable-lto --enable-target-optspace --without-long-double-128 --disable-libgomp --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-nls --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.2.0 (crosstool-NG crosstool-ng-1.22.0-80-g6c4433a) ]
+  ignore line: [COMPILER_PATH=/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/:/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../libexec/gcc/:/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/]
+  ignore line: [LIBRARY_PATH=/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/:/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/:/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib/:/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/lib/:/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-nostdlib' '-v' '-o' 'cmTC_fecca']
+  link line: [ /Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/collect2 -plugin /Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/liblto_plugin.so -plugin-opt=/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/pv/34t6hfln4kl4rknslt061hy00000gn/T//ccHZlvP2.res --sysroot=/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot -o cmTC_fecca -L/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0 -L/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc -L/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib -L/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/lib -L/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/usr/lib CMakeFiles/cmTC_fecca.dir/CMakeCCompilerABI.c.obj]
+    arg [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/var/folders/pv/34t6hfln4kl4rknslt061hy00000gn/T//ccHZlvP2.res] ==> ignore
+    arg [--sysroot=/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_fecca] ==> ignore
+    arg [-L/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0] ==> dir [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0]
+    arg [-L/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc] ==> dir [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc]
+    arg [-L/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib] ==> dir [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib]
+    arg [-L/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/lib] ==> dir [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/lib]
+    arg [-L/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/usr/lib] ==> dir [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/usr/lib]
+    arg [CMakeFiles/cmTC_fecca.dir/CMakeCCompilerABI.c.obj] ==> ignore
+  collapse library dir [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0] ==> [/Users/rubeen/dev/esp/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/5.2.0]
+  collapse library dir [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc] ==> [/Users/rubeen/dev/esp/xtensa-esp32-elf/lib/gcc]
+  collapse library dir [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib] ==> [/Users/rubeen/dev/esp/xtensa-esp32-elf/xtensa-esp32-elf/lib]
+  collapse library dir [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/lib] ==> [/Users/rubeen/dev/esp/xtensa-esp32-elf/xtensa-esp32-elf/sysroot/lib]
+  collapse library dir [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/usr/lib] ==> [/Users/rubeen/dev/esp/xtensa-esp32-elf/xtensa-esp32-elf/sysroot/usr/lib]
+  implicit libs: []
+  implicit dirs: [/Users/rubeen/dev/esp/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/5.2.0;/Users/rubeen/dev/esp/xtensa-esp32-elf/lib/gcc;/Users/rubeen/dev/esp/xtensa-esp32-elf/xtensa-esp32-elf/lib;/Users/rubeen/dev/esp/xtensa-esp32-elf/xtensa-esp32-elf/sysroot/lib;/Users/rubeen/dev/esp/xtensa-esp32-elf/xtensa-esp32-elf/sysroot/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /Users/rubeen/dev/esp/projects/led-client/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_54857/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_54857.dir/build.make CMakeFiles/cmTC_54857.dir/build
+Building C object CMakeFiles/cmTC_54857.dir/feature_tests.c.obj
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc   -mlongcalls    -std=c11 -o CMakeFiles/cmTC_54857.dir/feature_tests.c.obj   -c /Users/rubeen/dev/esp/projects/led-client/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_54857
+"/Users/rubeen/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_54857.dir/link.txt --verbose=1
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc -mlongcalls   -nostdlib  CMakeFiles/cmTC_54857.dir/feature_tests.c.obj  -o cmTC_54857 
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000400074
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /Users/rubeen/dev/esp/projects/led-client/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fb035/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_fb035.dir/build.make CMakeFiles/cmTC_fb035.dir/build
+Building C object CMakeFiles/cmTC_fb035.dir/feature_tests.c.obj
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc   -mlongcalls    -std=c99 -o CMakeFiles/cmTC_fb035.dir/feature_tests.c.obj   -c /Users/rubeen/dev/esp/projects/led-client/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_fb035
+"/Users/rubeen/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_fb035.dir/link.txt --verbose=1
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc -mlongcalls   -nostdlib  CMakeFiles/cmTC_fb035.dir/feature_tests.c.obj  -o cmTC_fb035 
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000400074
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /Users/rubeen/dev/esp/projects/led-client/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fc79a/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_fc79a.dir/build.make CMakeFiles/cmTC_fc79a.dir/build
+Building C object CMakeFiles/cmTC_fc79a.dir/feature_tests.c.obj
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc   -mlongcalls    -std=c90 -o CMakeFiles/cmTC_fc79a.dir/feature_tests.c.obj   -c /Users/rubeen/dev/esp/projects/led-client/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_fc79a
+"/Users/rubeen/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_fc79a.dir/link.txt --verbose=1
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc -mlongcalls   -nostdlib  CMakeFiles/cmTC_fc79a.dir/feature_tests.c.obj  -o cmTC_fc79a 
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000400074
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Users/rubeen/dev/esp/projects/led-client/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d83fa/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d83fa.dir/build.make CMakeFiles/cmTC_d83fa.dir/build
+Building CXX object CMakeFiles/cmTC_d83fa.dir/testCXXCompiler.cxx.obj
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++    -mlongcalls    -o CMakeFiles/cmTC_d83fa.dir/testCXXCompiler.cxx.obj -c /Users/rubeen/dev/esp/projects/led-client/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_d83fa
+"/Users/rubeen/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_d83fa.dir/link.txt --verbose=1
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++  -mlongcalls   -nostdlib  CMakeFiles/cmTC_d83fa.dir/testCXXCompiler.cxx.obj  -o cmTC_d83fa 
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000400054
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/rubeen/dev/esp/projects/led-client/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_552e7/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_552e7.dir/build.make CMakeFiles/cmTC_552e7.dir/build
+Building CXX object CMakeFiles/cmTC_552e7.dir/CMakeCXXCompilerABI.cpp.obj
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++    -mlongcalls    -v -o CMakeFiles/cmTC_552e7.dir/CMakeCXXCompilerABI.cpp.obj -c "/Users/rubeen/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp"
+Using built-in specs.
+COLLECT_GCC=/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++
+Target: xtensa-esp32-elf
+Configured with: /Volumes/build/idf/crosstool-NG/.build/src/gcc-5.2.0/configure --build=x86_64-build_apple-darwin16.3.0 --host=x86_64-build_apple-darwin16.3.0 --target=xtensa-esp32-elf --prefix=/Volumes/build/idf/crosstool-NG/builds/xtensa-esp32-elf --with-local-prefix=/Volumes/build/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/sysroot --with-sysroot=/Volumes/build/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/sysroot --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG crosstool-ng-1.22.0-80-g6c4433a' --disable-__cxa_atexit --enable-cxx-flags='-fno-rtti -ffunction-sections' --with-gmp=/Volumes/build/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-mpfr=/Volumes/build/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-mpc=/Volumes/build/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-isl=/Volumes/build/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-cloog=/Volumes/build/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-libelf=/Volumes/build/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --enable-lto --enable-target-optspace --without-long-double-128 --disable-libgomp --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-nls --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio
+Thread model: posix
+gcc version 5.2.0 (crosstool-NG crosstool-ng-1.22.0-80-g6c4433a) 
+COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'CMakeFiles/cmTC_552e7.dir/CMakeCXXCompilerABI.cpp.obj' '-c'
+ /Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/cc1plus -quiet -v -iprefix /Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/ -isysroot /Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot /Users/rubeen/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mlongcalls -auxbase-strip CMakeFiles/cmTC_552e7.dir/CMakeCXXCompilerABI.cpp.obj -version -o /var/folders/pv/34t6hfln4kl4rknslt061hy00000gn/T//ccOL6dZi.s
+GNU C++ (crosstool-NG crosstool-ng-1.22.0-80-g6c4433a) version 5.2.0 (xtensa-esp32-elf)
+	compiled by GNU C version 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.42.1), GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/../../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/include/c++/5.2.0"
+ignoring duplicate directory "/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/../../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/include/c++/5.2.0/xtensa-esp32-elf"
+ignoring duplicate directory "/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/../../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/include/c++/5.2.0/backward"
+ignoring duplicate directory "/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/../../lib/gcc/xtensa-esp32-elf/5.2.0/include"
+ignoring nonexistent directory "/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/Volumes/build/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/sysroot/include"
+ignoring duplicate directory "/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/../../lib/gcc/xtensa-esp32-elf/5.2.0/include-fixed"
+ignoring duplicate directory "/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/../../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/include/c++/5.2.0
+ /Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/include/c++/5.2.0/xtensa-esp32-elf
+ /Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/include/c++/5.2.0/backward
+ /Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/include
+ /Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/include-fixed
+ /Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/include
+ /Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/usr/include
+End of search list.
+GNU C++ (crosstool-NG crosstool-ng-1.22.0-80-g6c4433a) version 5.2.0 (xtensa-esp32-elf)
+	compiled by GNU C version 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.42.1), GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 4b03cf59e62d72d5913a8de967b086bf
+COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'CMakeFiles/cmTC_552e7.dir/CMakeCXXCompilerABI.cpp.obj' '-c'
+ /Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/as --traditional-format --longcalls -o CMakeFiles/cmTC_552e7.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/pv/34t6hfln4kl4rknslt061hy00000gn/T//ccOL6dZi.s
+COMPILER_PATH=/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/:/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../libexec/gcc/:/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/
+LIBRARY_PATH=/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/:/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/:/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib/:/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/lib/:/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'CMakeFiles/cmTC_552e7.dir/CMakeCXXCompilerABI.cpp.obj' '-c'
+Linking CXX executable cmTC_552e7
+"/Users/rubeen/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_552e7.dir/link.txt --verbose=1
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++  -mlongcalls   -nostdlib -v CMakeFiles/cmTC_552e7.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_552e7 
+Using built-in specs.
+COLLECT_GCC=/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++
+COLLECT_LTO_WRAPPER=/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/lto-wrapper
+Target: xtensa-esp32-elf
+Configured with: /Volumes/build/idf/crosstool-NG/.build/src/gcc-5.2.0/configure --build=x86_64-build_apple-darwin16.3.0 --host=x86_64-build_apple-darwin16.3.0 --target=xtensa-esp32-elf --prefix=/Volumes/build/idf/crosstool-NG/builds/xtensa-esp32-elf --with-local-prefix=/Volumes/build/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/sysroot --with-sysroot=/Volumes/build/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/sysroot --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG crosstool-ng-1.22.0-80-g6c4433a' --disable-__cxa_atexit --enable-cxx-flags='-fno-rtti -ffunction-sections' --with-gmp=/Volumes/build/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-mpfr=/Volumes/build/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-mpc=/Volumes/build/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-isl=/Volumes/build/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-cloog=/Volumes/build/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-libelf=/Volumes/build/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --enable-lto --enable-target-optspace --without-long-double-128 --disable-libgomp --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-nls --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio
+Thread model: posix
+gcc version 5.2.0 (crosstool-NG crosstool-ng-1.22.0-80-g6c4433a) 
+COMPILER_PATH=/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/:/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../libexec/gcc/:/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/
+LIBRARY_PATH=/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/:/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/:/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib/:/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/lib/:/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-mlongcalls' '-nostdlib' '-v' '-o' 'cmTC_552e7'
+ /Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/collect2 -plugin /Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/liblto_plugin.so -plugin-opt=/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/pv/34t6hfln4kl4rknslt061hy00000gn/T//cc5y16xc.res --sysroot=/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot -o cmTC_552e7 -L/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0 -L/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc -L/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib -L/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/lib -L/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/usr/lib CMakeFiles/cmTC_552e7.dir/CMakeCXXCompilerABI.cpp.obj
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000400074
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/include/c++/5.2.0]
+    add: [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/include/c++/5.2.0/xtensa-esp32-elf]
+    add: [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/include/c++/5.2.0/backward]
+    add: [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/include]
+    add: [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/include-fixed]
+    add: [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/include]
+    add: [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/include/c++/5.2.0] ==> [/Users/rubeen/dev/esp/xtensa-esp32-elf/xtensa-esp32-elf/include/c++/5.2.0]
+  collapse include dir [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/include/c++/5.2.0/xtensa-esp32-elf] ==> [/Users/rubeen/dev/esp/xtensa-esp32-elf/xtensa-esp32-elf/include/c++/5.2.0/xtensa-esp32-elf]
+  collapse include dir [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/include/c++/5.2.0/backward] ==> [/Users/rubeen/dev/esp/xtensa-esp32-elf/xtensa-esp32-elf/include/c++/5.2.0/backward]
+  collapse include dir [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/include] ==> [/Users/rubeen/dev/esp/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/5.2.0/include]
+  collapse include dir [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/include-fixed] ==> [/Users/rubeen/dev/esp/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/5.2.0/include-fixed]
+  collapse include dir [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/include] ==> [/Users/rubeen/dev/esp/xtensa-esp32-elf/xtensa-esp32-elf/include]
+  collapse include dir [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/usr/include] ==> [/Users/rubeen/dev/esp/xtensa-esp32-elf/xtensa-esp32-elf/sysroot/usr/include]
+  implicit include dirs: [/Users/rubeen/dev/esp/xtensa-esp32-elf/xtensa-esp32-elf/include/c++/5.2.0;/Users/rubeen/dev/esp/xtensa-esp32-elf/xtensa-esp32-elf/include/c++/5.2.0/xtensa-esp32-elf;/Users/rubeen/dev/esp/xtensa-esp32-elf/xtensa-esp32-elf/include/c++/5.2.0/backward;/Users/rubeen/dev/esp/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/5.2.0/include;/Users/rubeen/dev/esp/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/5.2.0/include-fixed;/Users/rubeen/dev/esp/xtensa-esp32-elf/xtensa-esp32-elf/include;/Users/rubeen/dev/esp/xtensa-esp32-elf/xtensa-esp32-elf/sysroot/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(xtensa-esp32-elf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/rubeen/dev/esp/projects/led-client/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_552e7/fast ]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_552e7.dir/build.make CMakeFiles/cmTC_552e7.dir/build]
+  ignore line: [Building CXX object CMakeFiles/cmTC_552e7.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++    -mlongcalls    -v -o CMakeFiles/cmTC_552e7.dir/CMakeCXXCompilerABI.cpp.obj -c "/Users/rubeen/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp"]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++]
+  ignore line: [Target: xtensa-esp32-elf]
+  ignore line: [Configured with: /Volumes/build/idf/crosstool-NG/.build/src/gcc-5.2.0/configure --build=x86_64-build_apple-darwin16.3.0 --host=x86_64-build_apple-darwin16.3.0 --target=xtensa-esp32-elf --prefix=/Volumes/build/idf/crosstool-NG/builds/xtensa-esp32-elf --with-local-prefix=/Volumes/build/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/sysroot --with-sysroot=/Volumes/build/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/sysroot --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG crosstool-ng-1.22.0-80-g6c4433a' --disable-__cxa_atexit --enable-cxx-flags='-fno-rtti -ffunction-sections' --with-gmp=/Volumes/build/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-mpfr=/Volumes/build/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-mpc=/Volumes/build/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-isl=/Volumes/build/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-cloog=/Volumes/build/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-libelf=/Volumes/build/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --enable-lto --enable-target-optspace --without-long-double-128 --disable-libgomp --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-nls --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.2.0 (crosstool-NG crosstool-ng-1.22.0-80-g6c4433a) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'CMakeFiles/cmTC_552e7.dir/CMakeCXXCompilerABI.cpp.obj' '-c']
+  ignore line: [ /Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/cc1plus -quiet -v -iprefix /Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/ -isysroot /Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot /Users/rubeen/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mlongcalls -auxbase-strip CMakeFiles/cmTC_552e7.dir/CMakeCXXCompilerABI.cpp.obj -version -o /var/folders/pv/34t6hfln4kl4rknslt061hy00000gn/T//ccOL6dZi.s]
+  ignore line: [GNU C++ (crosstool-NG crosstool-ng-1.22.0-80-g6c4433a) version 5.2.0 (xtensa-esp32-elf)]
+  ignore line: [	compiled by GNU C version 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.42.1), GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/../../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/include/c++/5.2.0"]
+  ignore line: [ignoring duplicate directory "/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/../../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/include/c++/5.2.0/xtensa-esp32-elf"]
+  ignore line: [ignoring duplicate directory "/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/../../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/include/c++/5.2.0/backward"]
+  ignore line: [ignoring duplicate directory "/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/../../lib/gcc/xtensa-esp32-elf/5.2.0/include"]
+  ignore line: [ignoring nonexistent directory "/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/Volumes/build/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/sysroot/include"]
+  ignore line: [ignoring duplicate directory "/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/../../lib/gcc/xtensa-esp32-elf/5.2.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/../../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/include/c++/5.2.0]
+  ignore line: [ /Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/include/c++/5.2.0/xtensa-esp32-elf]
+  ignore line: [ /Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/include/c++/5.2.0/backward]
+  ignore line: [ /Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/include]
+  ignore line: [ /Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/include-fixed]
+  ignore line: [ /Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/include]
+  ignore line: [ /Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++ (crosstool-NG crosstool-ng-1.22.0-80-g6c4433a) version 5.2.0 (xtensa-esp32-elf)]
+  ignore line: [	compiled by GNU C version 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.42.1), GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 4b03cf59e62d72d5913a8de967b086bf]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'CMakeFiles/cmTC_552e7.dir/CMakeCXXCompilerABI.cpp.obj' '-c']
+  ignore line: [ /Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/as --traditional-format --longcalls -o CMakeFiles/cmTC_552e7.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/pv/34t6hfln4kl4rknslt061hy00000gn/T//ccOL6dZi.s]
+  ignore line: [COMPILER_PATH=/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/:/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../libexec/gcc/:/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/]
+  ignore line: [LIBRARY_PATH=/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/:/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/:/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib/:/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/lib/:/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'CMakeFiles/cmTC_552e7.dir/CMakeCXXCompilerABI.cpp.obj' '-c']
+  ignore line: [Linking CXX executable cmTC_552e7]
+  ignore line: ["/Users/rubeen/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_552e7.dir/link.txt --verbose=1]
+  ignore line: [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++  -mlongcalls   -nostdlib -v CMakeFiles/cmTC_552e7.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_552e7 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/lto-wrapper]
+  ignore line: [Target: xtensa-esp32-elf]
+  ignore line: [Configured with: /Volumes/build/idf/crosstool-NG/.build/src/gcc-5.2.0/configure --build=x86_64-build_apple-darwin16.3.0 --host=x86_64-build_apple-darwin16.3.0 --target=xtensa-esp32-elf --prefix=/Volumes/build/idf/crosstool-NG/builds/xtensa-esp32-elf --with-local-prefix=/Volumes/build/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/sysroot --with-sysroot=/Volumes/build/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/sysroot --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG crosstool-ng-1.22.0-80-g6c4433a' --disable-__cxa_atexit --enable-cxx-flags='-fno-rtti -ffunction-sections' --with-gmp=/Volumes/build/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-mpfr=/Volumes/build/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-mpc=/Volumes/build/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-isl=/Volumes/build/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-cloog=/Volumes/build/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-libelf=/Volumes/build/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --enable-lto --enable-target-optspace --without-long-double-128 --disable-libgomp --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-nls --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.2.0 (crosstool-NG crosstool-ng-1.22.0-80-g6c4433a) ]
+  ignore line: [COMPILER_PATH=/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/:/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../libexec/gcc/:/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/]
+  ignore line: [LIBRARY_PATH=/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/:/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/:/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib/:/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/lib/:/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-nostdlib' '-v' '-o' 'cmTC_552e7']
+  link line: [ /Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/collect2 -plugin /Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/liblto_plugin.so -plugin-opt=/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/pv/34t6hfln4kl4rknslt061hy00000gn/T//cc5y16xc.res --sysroot=/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot -o cmTC_552e7 -L/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0 -L/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc -L/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib -L/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/lib -L/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/usr/lib CMakeFiles/cmTC_552e7.dir/CMakeCXXCompilerABI.cpp.obj]
+    arg [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/var/folders/pv/34t6hfln4kl4rknslt061hy00000gn/T//cc5y16xc.res] ==> ignore
+    arg [--sysroot=/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_552e7] ==> ignore
+    arg [-L/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0] ==> dir [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0]
+    arg [-L/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc] ==> dir [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc]
+    arg [-L/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib] ==> dir [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib]
+    arg [-L/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/lib] ==> dir [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/lib]
+    arg [-L/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/usr/lib] ==> dir [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/usr/lib]
+    arg [CMakeFiles/cmTC_552e7.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+  collapse library dir [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0] ==> [/Users/rubeen/dev/esp/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/5.2.0]
+  collapse library dir [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc] ==> [/Users/rubeen/dev/esp/xtensa-esp32-elf/lib/gcc]
+  collapse library dir [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib] ==> [/Users/rubeen/dev/esp/xtensa-esp32-elf/xtensa-esp32-elf/lib]
+  collapse library dir [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/lib] ==> [/Users/rubeen/dev/esp/xtensa-esp32-elf/xtensa-esp32-elf/sysroot/lib]
+  collapse library dir [/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/usr/lib] ==> [/Users/rubeen/dev/esp/xtensa-esp32-elf/xtensa-esp32-elf/sysroot/usr/lib]
+  implicit libs: []
+  implicit dirs: [/Users/rubeen/dev/esp/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/5.2.0;/Users/rubeen/dev/esp/xtensa-esp32-elf/lib/gcc;/Users/rubeen/dev/esp/xtensa-esp32-elf/xtensa-esp32-elf/lib;/Users/rubeen/dev/esp/xtensa-esp32-elf/xtensa-esp32-elf/sysroot/lib;/Users/rubeen/dev/esp/xtensa-esp32-elf/xtensa-esp32-elf/sysroot/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: /Users/rubeen/dev/esp/projects/led-client/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ae43f/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ae43f.dir/build.make CMakeFiles/cmTC_ae43f.dir/build
+Building CXX object CMakeFiles/cmTC_ae43f.dir/feature_tests.cxx.obj
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++    -mlongcalls    -std=c++1z -o CMakeFiles/cmTC_ae43f.dir/feature_tests.cxx.obj -c /Users/rubeen/dev/esp/projects/led-client/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_ae43f
+"/Users/rubeen/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_ae43f.dir/link.txt --verbose=1
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++  -mlongcalls   -nostdlib  CMakeFiles/cmTC_ae43f.dir/feature_tests.cxx.obj  -o cmTC_ae43f 
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000400074
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /Users/rubeen/dev/esp/projects/led-client/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_08cf4/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_08cf4.dir/build.make CMakeFiles/cmTC_08cf4.dir/build
+Building CXX object CMakeFiles/cmTC_08cf4.dir/feature_tests.cxx.obj
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++    -mlongcalls    -std=c++14 -o CMakeFiles/cmTC_08cf4.dir/feature_tests.cxx.obj -c /Users/rubeen/dev/esp/projects/led-client/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_08cf4
+"/Users/rubeen/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_08cf4.dir/link.txt --verbose=1
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++  -mlongcalls   -nostdlib  CMakeFiles/cmTC_08cf4.dir/feature_tests.cxx.obj  -o cmTC_08cf4 
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000400074
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /Users/rubeen/dev/esp/projects/led-client/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_bc211/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_bc211.dir/build.make CMakeFiles/cmTC_bc211.dir/build
+Building CXX object CMakeFiles/cmTC_bc211.dir/feature_tests.cxx.obj
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++    -mlongcalls    -std=c++11 -o CMakeFiles/cmTC_bc211.dir/feature_tests.cxx.obj -c /Users/rubeen/dev/esp/projects/led-client/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_bc211
+"/Users/rubeen/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_bc211.dir/link.txt --verbose=1
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++  -mlongcalls   -nostdlib  CMakeFiles/cmTC_bc211.dir/feature_tests.cxx.obj  -o cmTC_bc211 
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000400074
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /Users/rubeen/dev/esp/projects/led-client/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a452c/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_a452c.dir/build.make CMakeFiles/cmTC_a452c.dir/build
+Building CXX object CMakeFiles/cmTC_a452c.dir/feature_tests.cxx.obj
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++    -mlongcalls    -std=c++98 -o CMakeFiles/cmTC_a452c.dir/feature_tests.cxx.obj -c /Users/rubeen/dev/esp/projects/led-client/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_a452c
+"/Users/rubeen/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_a452c.dir/link.txt --verbose=1
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++  -mlongcalls   -nostdlib  CMakeFiles/cmTC_a452c.dir/feature_tests.cxx.obj  -o cmTC_a452c 
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000400074
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates

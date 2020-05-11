@@ -1,0 +1,1 @@
+cmd='/usr/local/Cellar/cmake/3.16.2/bin/cmake;-DSDKCONFIG=/Volumes/Dev/e-technik/esp/projects/lcd-test/sdkconfig;-DIDF_PATH=/Volumes/Dev/e-technik/esp/esp-idf;-DSECURE_BOOT_SIGNING_KEY=/Volumes/Dev/e-technik/esp/projects/lcd-test;-DEXTRA_COMPONENT_DIRS=/Volumes/Dev/e-technik/esp/esp-idf/components/bootloader;-GNinja;<SOURCE_DIR><SOURCE_SUBDIR>'

@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/rubeen/dev/Arduino/Projects/clion-test/cmake-build-debug/clion_test_clion_test.ino.cpp
+Arduino.h
+-
+User_Setup.h
+/Users/rubeen/dev/Arduino/Projects/clion-test/cmake-build-debug/User_Setup.h
+Arduino.h
+/Users/rubeen/dev/Arduino/Projects/clion-test/cmake-build-debug/Arduino.h
+

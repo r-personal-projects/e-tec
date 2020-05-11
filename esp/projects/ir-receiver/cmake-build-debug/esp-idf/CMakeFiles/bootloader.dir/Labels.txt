@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/Users/rubeen/dev/esp/projects/ir-receiver/cmake-build-debug/esp-idf/CMakeFiles/bootloader
+/Users/rubeen/dev/esp/projects/ir-receiver/cmake-build-debug/esp-idf/CMakeFiles/bootloader.rule
+/Users/rubeen/dev/esp/projects/ir-receiver/cmake-build-debug/esp-idf/CMakeFiles/bootloader-complete.rule
+/Users/rubeen/dev/esp/projects/ir-receiver/cmake-build-debug/esp-idf/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/Users/rubeen/dev/esp/projects/ir-receiver/cmake-build-debug/esp-idf/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/Users/rubeen/dev/esp/projects/ir-receiver/cmake-build-debug/esp-idf/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/Users/rubeen/dev/esp/projects/ir-receiver/cmake-build-debug/esp-idf/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
+/Users/rubeen/dev/esp/projects/ir-receiver/cmake-build-debug/esp-idf/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/Users/rubeen/dev/esp/projects/ir-receiver/cmake-build-debug/esp-idf/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/Users/rubeen/dev/esp/projects/ir-receiver/cmake-build-debug/esp-idf/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule

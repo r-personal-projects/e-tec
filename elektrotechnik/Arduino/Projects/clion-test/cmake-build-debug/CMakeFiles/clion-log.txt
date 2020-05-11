@@ -1,0 +1,6 @@
+"/Users/rubeen/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.6183.77/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/rubeen/dev/Arduino/Projects/clion-test
+-- Generating clion_test
+-- Using /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-objcopy for converting firmware image to hex
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/rubeen/dev/Arduino/Projects/clion-test/cmake-build-debug

@@ -1,0 +1,18 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "/Volumes/Dev/e-technik/esp/esp-idf/components/bootloader/subproject",
+    "build_dir":          "/Volumes/Dev/e-technik/esp/projects/lcd-test/build/bootloader",
+    "config_file":        "/Volumes/Dev/e-technik/esp/projects/lcd-test/sdkconfig",
+    "config_defaults":    "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "git_revision":       "v3.3-rc-24-g148a26980",
+    "phy_data_partition": "",
+    "monitor_baud" : "115200",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : " /Volumes/Dev/e-technik/esp/esp-idf/components/efuse/Kconfig /Volumes/Dev/e-technik/esp/esp-idf/components/esp32/Kconfig /Volumes/Dev/e-technik/esp/esp-idf/components/log/Kconfig /Volumes/Dev/e-technik/esp/esp-idf/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : " /Volumes/Dev/e-technik/esp/esp-idf/components/bootloader/Kconfig.projbuild /Volumes/Dev/e-technik/esp/esp-idf/components/esptool_py/Kconfig.projbuild /Volumes/Dev/e-technik/esp/esp-idf/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "soc", "esp32", "log", "bootloader", "spi_flash", "micro-ecc", "efuse", "bootloader_support", "main", "esptool_py", "partition_table" ],
+    "build_component_paths" : [ "/Volumes/Dev/e-technik/esp/esp-idf/components/soc", "/Volumes/Dev/e-technik/esp/esp-idf/components/esp32", "/Volumes/Dev/e-technik/esp/esp-idf/components/log", "/Volumes/Dev/e-technik/esp/esp-idf/components/bootloader", "/Volumes/Dev/e-technik/esp/esp-idf/components/spi_flash", "/Volumes/Dev/e-technik/esp/esp-idf/components/micro-ecc", "/Volumes/Dev/e-technik/esp/esp-idf/components/efuse", "/Volumes/Dev/e-technik/esp/esp-idf/components/bootloader_support", "/Volumes/Dev/e-technik/esp/esp-idf/components/bootloader/subproject/main", "/Volumes/Dev/e-technik/esp/esp-idf/components/esptool_py", "/Volumes/Dev/e-technik/esp/esp-idf/components/partition_table" ]
+}

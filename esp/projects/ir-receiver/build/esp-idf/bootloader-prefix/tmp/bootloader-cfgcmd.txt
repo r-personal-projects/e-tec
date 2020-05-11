@@ -1,0 +1,1 @@
+cmd='/usr/local/Cellar/cmake/3.13.4/bin/cmake;-DSDKCONFIG=/Users/rubeen/dev/esp/projects/ir-receiver/sdkconfig;-DIDF_PATH=/Users/rubeen/dev/esp/esp-idf;-DSECURE_BOOT_SIGNING_KEY=/Users/rubeen/dev/esp/projects/ir-receiver;-GNinja;<SOURCE_DIR><SOURCE_SUBDIR>'

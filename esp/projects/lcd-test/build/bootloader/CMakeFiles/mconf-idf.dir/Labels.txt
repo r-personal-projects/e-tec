@@ -1,0 +1,13 @@
+# Target labels
+ mconf-idf
+# Source files and their labels
+/Volumes/Dev/e-technik/esp/projects/lcd-test/build/bootloader/CMakeFiles/mconf-idf
+/Volumes/Dev/e-technik/esp/projects/lcd-test/build/bootloader/CMakeFiles/mconf-idf.rule
+/Volumes/Dev/e-technik/esp/projects/lcd-test/build/bootloader/CMakeFiles/mconf-idf-complete.rule
+/Volumes/Dev/e-technik/esp/projects/lcd-test/build/bootloader/mconf-idf-prefix/src/mconf-idf-stamp/mconf-idf-install.rule
+/Volumes/Dev/e-technik/esp/projects/lcd-test/build/bootloader/mconf-idf-prefix/src/mconf-idf-stamp/mconf-idf-mkdir.rule
+/Volumes/Dev/e-technik/esp/projects/lcd-test/build/bootloader/mconf-idf-prefix/src/mconf-idf-stamp/mconf-idf-download.rule
+/Volumes/Dev/e-technik/esp/projects/lcd-test/build/bootloader/mconf-idf-prefix/src/mconf-idf-stamp/mconf-idf-update.rule
+/Volumes/Dev/e-technik/esp/projects/lcd-test/build/bootloader/mconf-idf-prefix/src/mconf-idf-stamp/mconf-idf-patch.rule
+/Volumes/Dev/e-technik/esp/projects/lcd-test/build/bootloader/mconf-idf-prefix/src/mconf-idf-stamp/mconf-idf-configure.rule
+/Volumes/Dev/e-technik/esp/projects/lcd-test/build/bootloader/mconf-idf-prefix/src/mconf-idf-stamp/mconf-idf-build.rule

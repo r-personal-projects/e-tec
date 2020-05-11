@@ -1,0 +1,7 @@
+/Users/rubeen/dev/Arduino/Projects/clion-test/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/rubeen/dev/Arduino/Projects/clion-test/cmake-build-debug/CMakeFiles/clion_test-upload.dir
+/Users/rubeen/dev/Arduino/Projects/clion-test/cmake-build-debug/CMakeFiles/clion_test-size.dir
+/Users/rubeen/dev/Arduino/Projects/clion-test/cmake-build-debug/CMakeFiles/clion_test.dir
+/Users/rubeen/dev/Arduino/Projects/clion-test/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/rubeen/dev/Arduino/Projects/clion-test/cmake-build-debug/CMakeFiles/upload.dir
+/Users/rubeen/dev/Arduino/Projects/clion-test/cmake-build-debug/CMakeFiles/uno_CORE.dir

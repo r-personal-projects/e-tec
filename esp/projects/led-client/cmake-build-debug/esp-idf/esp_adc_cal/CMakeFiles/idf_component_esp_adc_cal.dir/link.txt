@@ -1,0 +1,2 @@
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-ar qc libesp_adc_cal.a  CMakeFiles/idf_component_esp_adc_cal.dir/esp_adc_cal.c.obj
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-ranlib libesp_adc_cal.a

@@ -1,0 +1,2 @@
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-ar qc libesp-tls.a  CMakeFiles/idf_component_esp-tls.dir/esp_tls.c.obj
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-ranlib libesp-tls.a

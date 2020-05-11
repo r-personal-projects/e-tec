@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Volumes/Dev/e-technik/esp/projects/lcd-test/build/esp-idf/CMakeFiles/bootloader"
+		},
+		{
+			"file" : "/Volumes/Dev/e-technik/esp/projects/lcd-test/build/esp-idf/CMakeFiles/bootloader.rule"
+		},
+		{
+			"file" : "/Volumes/Dev/e-technik/esp/projects/lcd-test/build/esp-idf/CMakeFiles/bootloader-complete.rule"
+		},
+		{
+			"file" : "/Volumes/Dev/e-technik/esp/projects/lcd-test/build/esp-idf/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
+		},
+		{
+			"file" : "/Volumes/Dev/e-technik/esp/projects/lcd-test/build/esp-idf/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
+		},
+		{
+			"file" : "/Volumes/Dev/e-technik/esp/projects/lcd-test/build/esp-idf/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
+		},
+		{
+			"file" : "/Volumes/Dev/e-technik/esp/projects/lcd-test/build/esp-idf/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
+		},
+		{
+			"file" : "/Volumes/Dev/e-technik/esp/projects/lcd-test/build/esp-idf/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
+		},
+		{
+			"file" : "/Volumes/Dev/e-technik/esp/projects/lcd-test/build/esp-idf/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
+		},
+		{
+			"file" : "/Volumes/Dev/e-technik/esp/projects/lcd-test/build/esp-idf/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"bootloader"
+		],
+		"name" : "bootloader"
+	}
+}

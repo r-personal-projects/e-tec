@@ -1,0 +1,2 @@
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-ar qc libesp_ringbuf.a  CMakeFiles/idf_component_esp_ringbuf.dir/ringbuf.c.obj
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-ranlib libesp_ringbuf.a

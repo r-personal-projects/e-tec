@@ -1,0 +1,64 @@
+menu "Wifi Configuration"
+    config ESP_WIFI_SSID
+        string "WiFi SSID"
+        default "my-ssid"
+        help
+            SSID (network name) for the led-server to connect to
+
+    config ESP_WIFI_PASS
+        string "Wifi Password"
+        default "my-pass"
+        help
+            Password (WPA or WPA2) for the SSID to connect to.
+
+    config ESP_WIFI_MAX_RETRY
+        int "Maximum retry"
+        default 5
+        help
+            Set the maximum retry to avoid station reconnecting to the AccessPoint unlimited when AP is really inexistent.
+
+endmenu
+
+menu "LED / PIN Configuration"
+    config ESP_PIN_RED1
+        int "RED Pin Controller 1"
+        default 32
+        help
+            Red pin of controller 1 connected at esp32
+
+    config ESP_PIN_GREEN1
+            int "GREEN Pin Controller 1"
+            default 33
+            help
+                Red pin of controller 1 connected at esp32
+
+    config ESP_PIN_BLUE1
+            int "BLUE Pin Controller 1"
+            default 25
+            help
+                Red pin of controller 1 connected at esp32
+    config ESP_PIN_RED2
+        int "RED Pin Controller 2"
+        default 19
+        help
+            Red pin of controller 2 connected at esp32
+
+    config ESP_PIN_GREEN2
+            int "GREEN Pin Controller 2"
+            default 18
+            help
+                Red pin of controller 2 connected at esp32
+
+    config ESP_PIN_BLUE2
+            int "BLUE Pin Controller 2"
+            default 5
+            help
+                Red pin of controller 2 connected at esp32
+
+    config SECOND_LED_AVAILABLE
+                int "number of controller"
+                default 2
+                help
+                    Is a second controller available, set to 2.
+
+endmenu

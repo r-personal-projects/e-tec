@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/rubeen/dev/esp/projects/ir-receiver/build/esp-idf/CMakeFiles/bootloader"
+		},
+		{
+			"file" : "/Users/rubeen/dev/esp/projects/ir-receiver/build/esp-idf/CMakeFiles/bootloader.rule"
+		},
+		{
+			"file" : "/Users/rubeen/dev/esp/projects/ir-receiver/build/esp-idf/CMakeFiles/bootloader-complete.rule"
+		},
+		{
+			"file" : "/Users/rubeen/dev/esp/projects/ir-receiver/build/esp-idf/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
+		},
+		{
+			"file" : "/Users/rubeen/dev/esp/projects/ir-receiver/build/esp-idf/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
+		},
+		{
+			"file" : "/Users/rubeen/dev/esp/projects/ir-receiver/build/esp-idf/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
+		},
+		{
+			"file" : "/Users/rubeen/dev/esp/projects/ir-receiver/build/esp-idf/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
+		},
+		{
+			"file" : "/Users/rubeen/dev/esp/projects/ir-receiver/build/esp-idf/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
+		},
+		{
+			"file" : "/Users/rubeen/dev/esp/projects/ir-receiver/build/esp-idf/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
+		},
+		{
+			"file" : "/Users/rubeen/dev/esp/projects/ir-receiver/build/esp-idf/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"bootloader"
+		],
+		"name" : "bootloader"
+	}
+}

@@ -1,0 +1,18 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "/Users/rubeen/dev/esp/esp-idf/components/bootloader/subproject",
+    "build_dir":          "/Users/rubeen/dev/esp/projects/ir-receiver/cmake-build-debug/bootloader",
+    "config_file":        "/Users/rubeen/dev/esp/projects/ir-receiver/sdkconfig",
+    "config_defaults":    "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "git_revision":       "v4.0-dev-489-gc2aef48a5",
+    "phy_data_partition": "",
+    "monitor_baud" : "115200",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : " /Users/rubeen/dev/esp/esp-idf/components/efuse/Kconfig /Users/rubeen/dev/esp/esp-idf/components/esp32/Kconfig /Users/rubeen/dev/esp/esp-idf/components/log/Kconfig /Users/rubeen/dev/esp/esp-idf/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : " /Users/rubeen/dev/esp/esp-idf/components/bootloader/Kconfig.projbuild /Users/rubeen/dev/esp/esp-idf/components/esptool_py/Kconfig.projbuild /Users/rubeen/dev/esp/esp-idf/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "soc", "esp32", "xtensa", "esp_common", "esp_rom", "log", "bootloader", "spi_flash", "micro-ecc", "efuse", "bootloader_support", "main", "esptool_py", "partition_table" ],
+    "build_component_paths" : [ "/Users/rubeen/dev/esp/esp-idf/components/soc", "/Users/rubeen/dev/esp/esp-idf/components/esp32", "/Users/rubeen/dev/esp/esp-idf/components/xtensa", "/Users/rubeen/dev/esp/esp-idf/components/esp_common", "/Users/rubeen/dev/esp/esp-idf/components/esp_rom", "/Users/rubeen/dev/esp/esp-idf/components/log", "/Users/rubeen/dev/esp/esp-idf/components/bootloader", "/Users/rubeen/dev/esp/esp-idf/components/spi_flash", "/Users/rubeen/dev/esp/esp-idf/components/bootloader/subproject/components/micro-ecc", "/Users/rubeen/dev/esp/esp-idf/components/efuse", "/Users/rubeen/dev/esp/esp-idf/components/bootloader_support", "/Users/rubeen/dev/esp/esp-idf/components/bootloader/subproject/main", "/Users/rubeen/dev/esp/esp-idf/components/esptool_py", "/Users/rubeen/dev/esp/esp-idf/components/partition_table" ]
+}

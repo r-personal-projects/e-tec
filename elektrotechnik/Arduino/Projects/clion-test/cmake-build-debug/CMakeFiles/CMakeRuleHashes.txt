@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+29433f3ddfa85bb3f6b774dd1a1befd2 CMakeFiles/clion_test-size
+89e29744afe97a42d05fe109454b6a2a CMakeFiles/clion_test-upload
+71c5d2108aed0dd1b24a13024b212933 clion_test_clion_test.ino.cpp

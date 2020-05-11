@@ -1,0 +1,2 @@
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-ar qc libasio.a  CMakeFiles/idf_component_asio.dir/asio/asio/src/asio.cpp.obj
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-ranlib libasio.a

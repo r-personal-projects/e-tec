@@ -1,0 +1,4 @@
+#ifdef _CLION_TEST_USER_SETUP_H_
+#define _CLION_TEST_USER_SETUP_H_
+
+#endif //_CLION_TEST_USER_SETUP_H_

@@ -1,0 +1,2 @@
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-ar qc liblog.a  CMakeFiles/idf_component_log.dir/log.c.obj
+/Users/rubeen/dev/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-ranlib liblog.a
